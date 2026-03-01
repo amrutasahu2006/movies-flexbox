@@ -33,3 +33,15 @@
     font-size: 13px;
     margin: 8px;
 }
+
+@media (max-width: 900px){
+    #parent{
+        grid-template-columns: repeat(2, 240px);   
+    }
+}
+
+@media (max-width: 600px){
+    #parent{
+        grid-template-columns: repeat(1, 240px);   
+    }
+}
